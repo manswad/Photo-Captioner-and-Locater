@@ -40,6 +40,9 @@ for filename in os.listdir(photos_dir):
         csv_data.append({"filename": new_name, "description": description})
         file_counter += 1
 
+        # Delete file
+        os.remove(file_path)
+
     except Exception as e:
         print(f"Error processing {filename}: {e}")
 
