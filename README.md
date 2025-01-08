@@ -78,6 +78,7 @@ pip install pandas Pillow scikit-learn
    * Read images from the `photos` directory
    * Process them and save to `described` directory
    * Create an `index.csv` file with descriptions
+   * Some samples have already been added, you can delete them if you want
 
 2. Use the Searcher to find images:
 
