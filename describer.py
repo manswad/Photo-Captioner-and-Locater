@@ -12,7 +12,7 @@ photos_dir = "photos"
 described_dir = "described"
 os.makedirs(described_dir, exist_ok=True)
 
-# Initialize the CSV data
+# Initialize the CSV Data
 csv_data = []
 
 # Process images

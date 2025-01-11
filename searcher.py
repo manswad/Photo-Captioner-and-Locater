@@ -72,7 +72,7 @@ class ImageSearchApp(tk.Tk):
             tk.Label(card, image=photo, bg="#F0F0F0").image = photo  # Keep a reference to avoid garbage collection
             tk.Label(card, image=photo, bg="#F0F0F0").pack(side=tk.LEFT, padx=10)
 
-            # Display description and similarity score
+            # Display description and similarity score 
             details = tk.Frame(card, bg="#F0F0F0")
             details.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
             tk.Label(details, text=f"Description: {matched_description}", font=("Arial", 12), bg="#F0F0F0", wraplength=500, justify="left").pack(anchor="w", pady=5)

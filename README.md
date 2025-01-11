@@ -138,4 +138,4 @@ You can run this system in a distributed manner:
 * Implement caching for faster search results
 * Add support for more image formats
 * Include image metadata in the search index
-* Add export functionality for search results
+* Add export functionality for search results 
